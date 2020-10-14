@@ -1,0 +1,30 @@
+{
+   "port": 8080,
+   "passwordType": "sha256",
+   "detectorMergePamRegionTriggers": true,
+   "wallClockTimestampAsDefault": true,
+   "addStorage": [
+      {
+         "name": "second",
+         "path": "__DIR__/videos2"
+      }
+   ],
+   "db": {
+      "host": "127.0.0.1",
+      "user": "majesticflame",
+      "password": "",
+      "database": "ccio",
+      "port": 3306
+   },
+   "mail": {
+      "service": "gmail",
+      "auth": {
+         "user": "your_email@gmail.com",
+         "pass": "your_password_or_app_specific_password"
+      }
+   },
+   "cron": {
+      "key": "3e995edacc10dc8048a65838554d6465e3da15b364578566c76e5f8d9e8b"
+   },
+   "pluginKeys": {}
+}
